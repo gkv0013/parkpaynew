@@ -1,0 +1,70 @@
+body {
+    background-color:  #282e34;
+}
+.container {
+    max-width: 80%;
+    width: 100%;
+    margin: 50px auto;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(250, 252, 251);
+    text-align: left;
+    text-shadow: 3px 3px #054c4e;
+}
+.input_form {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(296deg, rgb(92, 207, 175), #6edee3);
+    padding: 40px 40px 40px 80px;
+    border-radius: 25px;
+}
+.form input {
+    border-radius: 5px;
+    opacity: 50%;
+    height: 20px;
+}
+.display_area {
+    margin-top: 40px;
+    background: linear-gradient(296deg, #6edee3, rgb(0, 198, 145));
+    padding: 40px 40px 40px 80px;
+    border-radius: 25px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 20px;
+    text-align: center;
+    color: rgb(13, 75, 5);
+    border-bottom: 1px solid rgb(21, 91, 100);
+}
+textarea {
+    border-radius: 5px;
+    opacity: 50%;
+    height: 20px;
+    width: 250px;
+}
+.add_item {
+    color: #fff;
+    background-color: rgb(21, 91, 100);
+    border-radius: 15px;
+    border-color: rgb(99, 207, 221);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+}
+.add_item:hover {
+    cursor: pointer;
+}
+.edit_btn, .save_btn {
+    color: #fff;
+    background-color: rgb(216, 38, 177);
+    border-radius: 5px;
+    border-color: rgb(216, 38, 177);
+    padding: 4px;
+}
